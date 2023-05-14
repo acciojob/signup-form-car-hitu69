@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html>
 
 <head>
@@ -9,27 +11,27 @@
 	<form action="" method="post" >
 <!-- 		name -->
 		<div>
-			<lable for="name" >Name</lable>
-		<input type="text"  id="name" value="" placeholder="Priyam Patel" required >
+			<label for="name" >Name*</label>
+		<input type="text"  id="#name" value="" placeholder="Priyam Patel" required >
 			
 		</div><br>
 <!-- 		email -->
 		<div>
-			<lable for="email" >Email</lable>
-			<input type="email" id ="email" placeholder="Pstr@gmail.com" required >
+			<label for="email" >Email*</label>
+			<input type="email" id ="#email" placeholder="Pstr@gmail.com" required >
 			
 		</div><br>
 <!-- 		gender -->
 		<div>
-			<lable for="gender" >Gender</lable>
-				<input type="radio" id="female" name="gender" >Female
-				<input type="radio" id="male" name="gender" >Male
-			    <input type="radio" id="others" name="gender" >Others
+			<label for="gender" >Gender*</label>
+				<input type="radio" id="gender_f" name="gender" >Female
+				<input type="radio" id="#gender_m" name="gender" >Male
+			 
 			
 		</div><br>
 <!-- 		>Car Brands -->
 		<div>
-			<lable for="car brands">Cars</lable>
+			<label for="cars">Car Brands*</label>
 			<select id="Please choose an option"  >
 				<option value="Please choose an option" disabled >--Please choose an option--</option>
 				<option value="bmw">BMW</option>
@@ -39,33 +41,33 @@
 		</div> <br>
 <!-- 		age -->
 		<div>
-			<lable for="age">Age</lable>
-			<input type="age" name ="age" required placeholder="21" >
+			<label for="age">Age*</label>
+			<input type="number" name ="age" placeholder="21" required  >
 		</div><br>
 <!-- 		date of birth -->
 	<div>
-			<lable for="d.o.b">DOB</lable>
+			<label for="d.o.b">DOB*</label>
 		<input type="date" name="d.o.b" id ="date of birth" required >
 		
 	</div><br>
 <!-- 		Phone number -->
 		<div>
-			<lable for="tel">Phone Number</lable>
-			<input type="tel" name ="Phone number" id="Phone number" placeholder="xxx-xxx-xxxx">
+			<label for="tel">Phone Number</label>
+			<input type="tel" name ="Phone number" id="#tel" placeholder="xxx-xxx-xxxx">
 			
-		</div><br>
+	</div><br>
 <!-- 		password -->
 		<div>
-			<lable for="password">Password</lable>
-			<input type="password" name="password" id ="password" required placeholder="Priyam@098">
+			<label for="password">Password*</label>
+			<input type="password" name="#password" id ="password" required placeholder="Priyam@098">
 		</div><br>
 <!-- 	/checkbox -->
 		<div>
-		    <lable for="checkbox">I agree to the TOS</lable>
-			<input type="checkbox" name="checkbox" id="checkbox">
+		    <label for="tos">I agree to the TOS</label>
+			<input type="checkbox" name="checkbox" id="#tos">
 		</div><br>
 <!-- 		sumbit button -->
-<!-- 		<lable for="sumbit" >Submit</lable> -->
+<!-- 		<label for="sumbit" >Submit</label> -->
 		<button>submit</button>
 	</form>
     <script type="text/javascript" src="./script.js">
